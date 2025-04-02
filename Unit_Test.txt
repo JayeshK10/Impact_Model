@@ -1,0 +1,59 @@
+
+stock_code_all.py
+1. test_stock_code_all.py  
+   Verifies get_code_names() to extract common stock codes from nested quote/trade file structures.
+
+ImpactMetrics.py
+2. test_compute_2min_midquote_returns.py  
+   Tests 2-minute midquote return calculation using mock quote data.
+
+3. test_compute_total_daily_volume.py  
+   Validates total daily volume computation.
+
+4. test_compute_arrival_price.py  
+   Ensures correct averaging of midquotes after 9:30 AM.
+
+5. test_compute_terminal_price.py  
+   Validates terminal price computation using final midquotes before 4:00 PM.
+
+6. test_compute_imbalance.py  
+   Tests accurate buy/sell trade imbalance calculation using mocked trade data.
+
+7. Code/impactUtils/Test_VWAP.py  
+   Verifies VWAP using Prof. Lee's code.
+
+8. test_compute_metrics.py  
+   Full pipeline test for compute_metrics() including missing/invalid value handling.
+
+data_preprocess.py
+9. test_stock_metrics_func.py  
+   Tests checkpoint-based metric skipping and fresh computation logic.
+
+10. test_aggregate_checkpoints.py  
+    Ensures correct aggregation of metrics and flags from checkpoint files.
+
+11. test_split_metric_dataframe.py  
+    Verifies metric-specific DataFrame splitting logic.
+
+12. test_filter_top_market_cap_stocks.py  
+    Confirms accurate top-K stock selection by avg daily value.
+
+13. test_filter_metrics.py  
+    Ensures stocks/dates with too much missing data are dropped properly.
+
+14. test_data_preprocess_main.py  
+    Verifies end-to-end run of data_preprocess, including serialized output generation.
+
+Non-linear Regression
+15. test_NLS.py  
+    Confirms nonlinear regression recovers η and β from synthetic Almgren-Chriss data.
+
+16. test_NLS_activity.py  
+    Validates different η and β estimation across high- and low-activity stocks.
+
+Bootstrap Analysis
+17. test_residual_bootstrap_analysis.py  
+    Tests residual bootstrap for uncertainty estimation and summary stats.
+
+18. test_paired_bootstrap_analysis.py  
+    Validates paired bootstrap output using synthetic inputs and known parameters.

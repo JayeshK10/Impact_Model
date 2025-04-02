@@ -1,0 +1,28 @@
+[RESIDUAL BOOTSTRAP]
+eta = 2.070943
+bootstrap_eta = 2.708240
+eta_se = 4.354480
+t-eta = 0.146354
+beta = 0.657736
+bootstrap_beta = 0.623225
+beta_se = 0.466564
+t-beta = -0.073969
+white_pvalue_q = 0.000000
+white_pvalue_sigma = 0.588902
+
+white_pvalue_both = 0.000000
+
+[PAIRED BOOTSTRAP]
+eta = 2.070943
+bootstrap_eta = -6.819434
+eta_se = 77.542245
+t-eta = -0.114652
+beta = 0.657736
+bootstrap_beta = 0.885278
+beta_se = 0.952875
+t-beta = 0.238795
+white_pvalue_q = 0.000000
+white_pvalue_sigma = 0.588902
+
+white_pvalue_both = 0.000000
+

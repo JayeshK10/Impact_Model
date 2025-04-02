@@ -1,0 +1,2 @@
+Estimated eta = 2.070943
+Estimated beta = 0.657736

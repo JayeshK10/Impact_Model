@@ -27,6 +27,8 @@ This project implements a full pipeline for estimating market impact parameters 
 
 
 ### 📁 Project Hierarchy (Simplified)
+<pre lang="md">
+```
 Impact Model/
 ├── Code/
 │   ├── impactUtils/              # VWAP, Tick Test, Return Bucket utilities
@@ -35,6 +37,8 @@ Impact Model/
 ├── Processed_Data/              # Output: matrices, plots, summaries
 ├── quotes/                      # Raw TAQ quotes
 ├── trades/                      # Raw TAQ trades
+```
+</pre>
 
 ---
 

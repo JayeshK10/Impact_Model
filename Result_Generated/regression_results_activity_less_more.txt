@@ -1,0 +1,4 @@
+Estimated eta (High activity)= 14.992181
+Estimated beta (High activity)= 1.220973
+Estimated eta (Low activity)= 0.486902
+Estimated beta (Low activity)= 0.436532
